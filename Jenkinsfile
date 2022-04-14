@@ -4,6 +4,6 @@ node {
         git "https://github.com/LiavN/GitJenkins.git"
     }
     stage("bla"){
-        sh "ls -l"
+        sh "python first.py"
     }
 }
